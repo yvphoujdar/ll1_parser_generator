@@ -1,0 +1,3 @@
+B -> B or T | T
+T -> T and F | F
+F -> not F | ( B ) | id

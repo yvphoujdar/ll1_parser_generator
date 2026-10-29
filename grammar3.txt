@@ -1,0 +1,4 @@
+S -> if ( E ) { L } Selse | id = E ; | id ( ) ;
+Selse -> else { L } | eps
+L -> S L | eps
+E -> id
